@@ -7,7 +7,7 @@ void main() {
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return  MaterialApp(
+    return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         backgroundColor: Colors.blue[800],
@@ -57,10 +57,11 @@ class MyApp extends StatelessWidget {
                 margin: EdgeInsets.symmetric(vertical: 26.1, horizontal: 23),
                 child: ListTile(
                   leading: Icon(Icons.email),
-                  title: Text('YvesdeOliveiraRibeiro@gmail.com',
+                  title: Text(
+                    'YvesdeOliveiraRibeiro@gmail.com',
                     style: TextStyle(
                       fontFamily: 'SourceSansPro',
-                      fontSize: 16.1,
+                      fontSize: 17.1,
                       fontStyle: FontStyle.italic,
                     ),
                   ),
@@ -73,5 +74,3 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-
-
